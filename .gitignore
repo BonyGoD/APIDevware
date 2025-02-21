@@ -4,3 +4,4 @@ node_modules
 .env.development.local
 api/constantes.js
 api/api.http
+package-lock.json
