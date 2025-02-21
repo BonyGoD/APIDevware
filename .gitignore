@@ -1,0 +1,6 @@
+node_modules
+.vercel
+.env
+.env.development.local
+api/constantes.js
+api/api.http

@@ -1,0 +1,29 @@
+{
+  "name": "api-devware",
+  "version": "1.0.0",
+  "description": "Api para envio de correos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DevWare",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "0.6.0",
+    "@vercel/blob": "0.23.2",
+    "@vercel/postgres": "0.8.0",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "filereader": "^0.10.3",
+    "mysql2": "3.9.7",
+    "nextjs": "^0.0.3",
+    "pg": "8.11.5",
+    "resend": "3.2.0",
+    "vercel": "^34.2.0",
+    "zod": "3.23.4"
+  }
+}
